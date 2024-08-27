@@ -2,7 +2,7 @@
 
 ### Overview
 
-Optimize LPTN is a fork of LPTN(https://github.com/csjliang/LPTN). This project aims to improve upon the original by chaning the number of residual blocks, learning rate, and the optimizer.
+Optimize LPTN is a fork of LPTN(https://github.com/csjliang/LPTN). This project aims to improve upon the original by changing the number of residual blocks, learning rate, and the optimizer.
 
 
 ### License
