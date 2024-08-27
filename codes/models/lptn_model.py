@@ -85,6 +85,9 @@ class LPTNModel(BaseModel):
         if optim_type == 'Adam':
             self.optimizer_g = torch.optim.Adam(optim_params,
                                                 **train_opt['optim_g'])
+        elif optim_type == 'Adagrad':
+            self.optimizer_g = torch.optim.Adagrad(optim_params,
+                                                **train_opt['optim_g'])
         else:
             raise NotImplementedError(
                 f'optimizer {optim_type} is not supperted yet.')
@@ -95,6 +98,9 @@ class LPTNModel(BaseModel):
         if optim_type == 'Adam':
             self.optimizer_d = torch.optim.Adam(self.net_d.parameters(),
                                                 **train_opt['optim_d'])
+        elif optim_type == 'Adagrad':
+            self.optimizer_g = torch.optim.Adagrad(optim_params,
+                                                **train_opt['optim_g'])
         else:
             raise NotImplementedError(
                 f'optimizer {optim_type} is not supperted yet.')
