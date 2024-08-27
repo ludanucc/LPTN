@@ -47,7 +47,7 @@ datasets:
 # network structures
 network_g:
   type: LPTN
-  nrb_low: 5
+  nrb_low: 2
   nrb_high: 3
   num_high: 3
 
