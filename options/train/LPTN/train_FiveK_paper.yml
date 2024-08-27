@@ -48,7 +48,7 @@ datasets:
 network_g:
   type: LPTNPaper
   nrb_low: 5
-  nrb_high: 3
+  nrb_high: 4
   num_high: 3
 
 network_d:
